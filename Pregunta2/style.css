@@ -1,0 +1,74 @@
+.universities_container {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+.universities_container--controllers {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+}
+.universities_container--controllers > div {
+    width: 40%;
+}
+.universities_container--controllers p {
+    margin-bottom: 5px;
+}
+.controller--browser-univ_buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.controller--browser-univ_buttons input {
+    margin-right: 10px;
+}
+
+.universities_container--table {
+    width: 70%;
+    margin: 0 auto 10px auto;
+}
+.universities_container--table .table--titles, .table--content {
+    display: flex;
+    justify-content: space-around;
+}
+.universities_container--table .table--titles {
+    background-color: green;
+    border-radius: 5px 5px 0 0;
+    
+}
+.universities_container--table .table--titles p,
+.universities_container--table .table--content .table--content-column p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    margin: auto;
+    text-align: center;
+}
+.universities_container--table .table--content .table--content-column p {
+    height: 50px;
+    border: black solid;
+    border-width: 0 0 1px 0;
+}
+.universities_container--table .table--titles p {
+    font-weight: bold;
+}
+.universities_container--table .table--titles .univ {
+    border: black solid;
+    border-width: 2px 1px 2px 2px;
+    border-radius: 5px 0 0 0;
+}
+.universities_container--table .table--titles .count {
+    border: black solid;
+    border-width: 2px 2px 2px 1px;
+    border-radius: 0 5px 0 0;
+}
+.universities_container--table .table--content {
+    background-color: rgb(16, 185, 16);
+    border-radius: 0 0 5px 5px;
+    border: black solid;
+    border-width: 0 2px 2px 2px;
+}
+.universities_container--table .table--content .table--content-column {
+    width: 50%;
+}

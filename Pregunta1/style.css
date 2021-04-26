@@ -1,0 +1,43 @@
+.events_container {
+    margin-top: 20px;
+}
+.events--cards_container {
+    margin-top: 20px;
+}
+.events--cards_container button {
+    background: none;
+    border: 0;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+}
+.events--cards_container button:active { 
+    outline: none; border: none; 
+}
+
+.events--card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+}
+.events--cards_container .terminado {
+    background-color: green;
+}
+.events--cards_container .pendiente {
+    background-color: red;
+}
+
+.event--modal_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.event--modal_body--title p {
+    font-weight: bold;
+}

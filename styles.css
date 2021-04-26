@@ -1,0 +1,19 @@
+li {
+    list-style: none;
+}
+.question_container {
+    width: 95%;
+    min-height: 100px;
+    height: auto;
+    margin: 20px auto 40px auto;
+    padding: 10px 20px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+.question_container h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+.question_container h2 {
+    margin: 30px 0;
+}
