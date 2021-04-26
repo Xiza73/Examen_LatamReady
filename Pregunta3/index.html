@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="game_container">
+        <div class="game_container--table">
+            <div class="boxes_container">
+                <div v-for="number of game_numbers" :key="'a'+number" v-bind:id="'a'+number" :class="[number ? 'box' : 'box-lock']" @click="move(number)">
+                    {{number}}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
